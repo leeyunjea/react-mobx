@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 // import logo from "./logo.svg";
 import "./App.css";
+import Counter from './Counter';
 
 let todoId = 0 // todo 아이템의 id를 증가시키며 저장하는 변수
 
@@ -116,6 +117,9 @@ class App extends Component {
               )
             }
           </div>
+        </div>
+        <div>
+        <Counter />
         </div>
       </div>
     );
